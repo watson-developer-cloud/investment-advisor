@@ -1,0 +1,177 @@
+
+<!---->
+<!--  Copyright 2015 IBM Corp. All Rights Reserved.-->
+<!--  -->
+<!--  Licensed under the Apache License, Version 2.0 (the "License"); you may not-->
+<!--  use this file except in compliance with the License. You may obtain a copy of-->
+<!--  the License at-->
+<!--  -->
+<!--  http://www.apache.org/licenses/LICENSE-2.0-->
+<!--  -->
+<!--  Unless required by applicable law or agreed to in writing, software-->
+<!--  distributed under the License is distributed on an "AS IS" BASIS, WITHOUT-->
+<!--  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the-->
+<!--  License for the specific language governing permissions and limitations under-->
+<!--  the License.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Investment Advisor</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/dist/demo.css">
+  </head>
+  <body>
+    
+    <div class="row service-container header">
+      <div class="col-lg-12 service-header">
+        <div class="container">
+          <div class="dialog-description">
+            <div id="appHeader">
+              <h1 style="font-size: 3.6em; margin-bottom: 14px" class="service-title"> <span>Investment Advisor</span></h1>
+            </div>
+            <div id="headerInfo">
+              <p>The Investment Advisor Demo combines IBM Watson Personality Insights and IBM Watson Tradeoff Analytics services to recommend suitable funds and agents for clients. Fund recommendation is based on a client's risk propensity. Agent recommendation focuses on building long-term relationships with clients.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="topnav" style="display:none" class="nav"><a class="back">&lt; Back to home</a></div>
+      <div id="galleries" style="display:none">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <h2>Clients</h2>
+          </div>
+        </div>
+        <div id="client-gallery"></div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <h2>Representatives</h2>
+          </div>
+        </div>
+        <div id="representative-gallery"></div>
+      </div>
+      <div id="expandedUser" style="display:none">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <h2 class="nav"><span class="category">Category</span><span> &gt; </span><span class="userName">User Name</span></h2>
+          </div>
+        </div>
+        <div class="row sectionHeader">
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <h3>Personal info</h3>
+            <div id="user-info"></div>
+          </div>
+          <div class="col-lg-8 col-md-8 col-xs-12">
+            <ul id="userSections" class="nav nav-pills nav-justified sections">
+              <li id="personality_summary_view-section" data-view="personality_summary_view" role="presentation" class="sectionLink active"><a>Personality Summary</a></li>
+              <li id="tradeoff_analytics_view-section" data-view="tradeoff_analytics_view" role="presentation" class="sectionLink"><a>Matching Funds</a></li>
+              <li id="representatives_view-section" data-view="representatives_view" role="presentation" class="sectionLink"><a>Representatives</a></li>
+            </ul>
+            <div id="personality_summary_view-text" style="display:none" class="view-text"></div>
+            <div id="tradeoff_analytics_view-text" style="display:none" class="view-text">
+              <p>Fund recommendation is based on client's personality and risk profile. Studies have indicated that risk preference of an individual is correlated to some personality attributes such as Cautiousness and Stability. Each fund, based on it's risk score is assigned a personality portrait. Investment Advisor recommends funds which have similar personality portrait to client's personality.</p>
+            </div>
+            <div id="representatives_view-text" style="display:none" class="view-text">
+              <p>Investment advisor recommends agents focusing on</p>building a long-term relationship with your clients. It uses client's
+              personality to select the best matching agent, as the closest
+              personality match or best complementing personality to handle this
+              customer.
+            </div>
+          </div>
+        </div>
+        <div id="personality_summary_view" class="view">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+              <h4>Personality Sunburst Chart</h4>
+              <div class="well">
+                <div id="sunburstChart"></div>
+              </div>
+            </div>
+          </div>
+          <div style="display:none" class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+              <h4>Lastest Posts</h4>
+              <div id="post-gallery" class="row"></div>
+            </div>
+          </div>
+        </div>
+        <div id="tradeoff_analytics_view" style="display:none" class="view">
+          <div class="recommendedFund">
+            <div class="row recommendations">
+              <div class="col-lg-6 col-md-6 col-xs-12">
+                <h4>Product Recommendations</h4>
+                <p><span>Best choice by personality:&nbsp;</span><span class="product"></span></p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12">
+                <h4>Recommended Message</h4>
+                <p class="message"></p>
+              </div>
+            </div>
+            <div style="margin-top:10px" class="row">
+              <div class="col-xs-6 col-xxs-12">
+                <h4>Funds analysis</h4>
+              </div>
+              <div class="col-xs-6 col-xxs-12">
+                <ul class="nav nav-tabs sections">
+                  <li id="tradeoffTable-section" data-view="tradeoffTable" role="presentation" class="sectionLink active"><a>Data</a></li>
+                  <li id="taWidgetContainer-section" data-view="taWidgetContainer" role="presentation" class="sectionLink"><a>Selection</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12">
+                <div class="tab-content">
+                  <div style="min-height: 500px" class="tab-pane active">
+                    <div id="tradeoffTable"></div>
+                    <div id="taWidgetContainer" style="display:none"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="representatives_view" style="display:none" class="view">
+          <div class="row recommendations">
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <h4>Recommended Engagement Times</h4>
+              <p style="margin-bottom: 0px" class="times">&nbsp;</p>
+              <h4>Recommended Engagement Channel</h4>
+              <p class="channel">&nbsp;</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <h4>Engagement Strategy</h4>
+              <p class="strategy"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+              <h4>Best matches for&nbsp;<span class="currentUser displayName"></span></h4>
+              <div id="representativeMatching2"></div>
+              <div id="similarRepresentatives"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      
+      <footer><a href="https://github.com/watson-developer-cloud/investment-advisor" target="_blank">Fork on Github</a><span> | </span><a href="./tos.html">Terms of Use</a><span> | </span><a href="http://www.ibm.com/privacy/us/en/" target="_blank">Privacy Policy</a><span> | </span><a href="./about.html">About</a></footer>
+    </div>
+    
+    <!-- CDN scripts-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="http://ta-cdn.mybluemix.net/v1/TradeoffAnalytics.js"></script>
+    <!-- script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js')-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
+    <!-- script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.js')-->
+    <!-- Bower components-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.23.3/js/jquery.tablesorter.min.js"></script>
+    <!-- Other scripts-->
+    <script type="text/javascript" src="/dist/demo.js"></script>
+  </body>
+</html>

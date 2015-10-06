@@ -1,0 +1,111 @@
+{
+  "clients" : [
+    {
+      "id"     : "{{twitter_id}}",
+      "job"    : "Client 107",
+      "source" : "twitter",
+      "name"   : "Leo Rakes",
+      "image"  : "portraits/11M.jpg"
+    },
+    {
+      "job"    : "Client 108",
+      "id"     : "{{twitter_id}}",
+      "source" : "twitter",
+      "name"   : "Frieda Freya Matthews",
+      "image"  : "portraits/19F.jpg"
+    },
+    {
+      "job"    : "Client 109",
+      "id"     : "{{twitter_id}}",
+      "source" : "twitter",
+      "name"   : "Odelia Howie Morrish",
+      "image"  : "portraits/14F.jpg"
+    },
+    {
+      "job"    : "Client 110",
+      "id"     : "{{twitter_id}}",
+      "source" : "twitter",
+      "name"   : "Nigel Vaughn Randall",
+      "image"  : "portraits/2M.jpg"
+    },
+    {
+      "job"    : "Client 111",
+      "id"     : "{{twitter_id}}",
+      "source" : "twitter",
+      "name"   : "Cari Diantha Victor",
+      "image"  : "portraits/15F.jpg"
+    },
+    {
+      "job"    : "Client 112",
+      "id"     : "{{twitter_id}}",
+      "source" : "twitter",
+      "name"   : "Catalina Santos",
+      "image"  : "portraits/9F.jpg"
+    },
+    {
+      "job"    : "Client 113",
+      "id"     : "{{twitter_id}}",
+      "source" : "twitter",
+      "name"   : "Thomas Grönholm",
+      "image"  : "portraits/3M.jpg"
+    },
+    {
+      "job"    : "Client 114",
+      "id"     : "{{twitter_id}}",
+      "source" : "twitter",
+      "name"   : "Liliana Harrietta Hunnisett",
+      "image"  : "portraits/10F.jpg"
+    }
+  ],
+  "representatives": [
+    {
+      "job"    : "Representative",
+      "id"     : "{{twitter_id}}",
+      "source" : "twitter",
+      "name"   : "Jesica Dory Abram",
+      "image"  : "portraits/20F.jpg"
+    },
+    {
+      "job": "Representative",
+      "id": "{{twitter_id}}",
+      "source": "twitter",
+      "name"   : "Robin Jakki Tod",
+      "image"  : "portraits/21F.jpg"
+    },
+    {
+      "job": "Representative",
+      "id": "{{twitter_id}}",
+      "source": "twitter",
+      "name"   : "Charlotta Durkheim",
+      "image"  : "portraits/1F.jpg"
+    },
+    {
+      "job": "Representative",
+      "id": "{{twitter_id}}",
+      "source": "twitter",
+      "name"   : "Gustav Booch",
+      "image"  : "portraits/5M.jpg"
+    },
+    {
+      "job": "Representative",
+      "id": "{{twitter_id}}",
+      "source": "twitter",
+      "name"   : "Mariam Pierre",
+      "image"  : "portraits/8F.jpg"
+    },
+    {
+      "job": "Representative",
+      "id": "{{twitter_id}}",
+      "source": "twitter",
+      "name"   : "George Beaver",
+      "image"  : "portraits/12M.jpg"
+    },
+    {
+      "job": "Representative",
+      "id": "{{twitter_id}}",
+      "source": "twitter",
+      "name"   : "Carla Warnes",
+      "image"  : "portraits/25F.jpg"
+    }
+  ]
+}

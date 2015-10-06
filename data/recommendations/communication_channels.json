@@ -1,0 +1,46 @@
+[
+  {
+    "id": "mail",
+    "label": "Regular mail",
+    "traits": {
+      "Openness": 0,
+      "Conscientiousness": 0,
+      "Extraversion": 0,
+      "Agreeableness": 0,
+      "Neuroticism": 1
+    }
+  },
+  {
+    "id": "email",
+    "label": "E-mail",
+    "traits": {
+      "Openness": 0.5,
+      "Conscientiousness": 0.6,
+      "Extraversion": 0.5,
+      "Agreeableness": 0.6,
+      "Neuroticism": 0.5
+    }
+  },
+  {
+    "id": "phone",
+    "label": "Phone",
+    "traits": {
+      "Openness": 0.6,
+      "Conscientiousness": 0.6,
+      "Extraversion": 0.6,
+      "Agreeableness": 0.7,
+      "Neuroticism": 0.4
+    }
+  },
+  {
+    "id": "socialmedia",
+    "label": "Social Media",
+    "traits": {
+      "Openness": 0.5,
+      "Conscientiousness": 0.5,
+      "Extraversion": 0.5,
+      "Agreeableness": 0.5,
+      "Neuroticism": 0.5
+    }
+  }
+]

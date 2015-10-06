@@ -1,0 +1,16 @@
+---
+declared-services:
+  personality-insights-service-standard:
+    label: personality_insights
+    plan: standard
+  tradeoff-analytics-service-standard:
+    label: tradeoff_analytics
+    plan: standard
+applications:
+- name: investment-advisor
+  command: node app.js
+  path: .
+  memory: 1G
+  services:
+  - personality-insights-service-standard
+  - tradeoff-analytics-service-standard

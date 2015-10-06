@@ -1,0 +1,1652 @@
+[
+    {
+        "traits": {
+            "Vulnerability": 0.49570000000000003, 
+            "Stability": 0.9956999999999999, 
+            "Ideal": 0.49570000000000003, 
+            "Conservation": 0.49570000000000003, 
+            "Cautiousness": 0.9956999999999999, 
+            "Orderliness": 0.49570000000000003, 
+            "Structure": 0.5043
+        }, 
+        "message": "Since you appear to be a cautious person, I'd recomment this utilities fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks.  If relevant, mention how the product helps the community.", 
+        "id": 0, 
+        "label": "Select Utilities Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4913, 
+            "Stability": 0.9913, 
+            "Ideal": 0.4913, 
+            "Conservation": 0.4913, 
+            "Cautiousness": 0.9913, 
+            "Orderliness": 0.4913, 
+            "Structure": 0.5086999999999999
+        }, 
+        "message": "Since you appear to be a cautious person, I'd recomment this municipal income fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks.  If relevant, mention how the product helps the community.", 
+        "id": 1, 
+        "label": "OpenWealth Limited Term Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.48700000000000004, 
+            "Stability": 0.987, 
+            "Ideal": 0.48700000000000004, 
+            "Conservation": 0.48700000000000004, 
+            "Cautiousness": 0.987, 
+            "Orderliness": 0.48700000000000004, 
+            "Structure": 0.513
+        }, 
+        "message": "Since you appear to be a cautious person, I'd recomment this real estate fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks.  If relevant, mention how the product helps the community.", 
+        "id": 2, 
+        "label": "OpenWealth Real Estate Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4826, 
+            "Stability": 0.9826, 
+            "Ideal": 0.4826, 
+            "Conservation": 0.4826, 
+            "Cautiousness": 0.9826, 
+            "Orderliness": 0.4826, 
+            "Structure": 0.5174
+        }, 
+        "message": "Since you appear to be a cautious person, I'd recomment this tax-free bond fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks.  If relevant, mention how the product helps the community.", 
+        "id": 3, 
+        "label": "OpenWealth California Limited Term Tax-Free Bond Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4783, 
+            "Stability": 0.9783, 
+            "Ideal": 0.4783, 
+            "Conservation": 0.4783, 
+            "Cautiousness": 0.9783, 
+            "Orderliness": 0.4783, 
+            "Structure": 0.5217
+        }, 
+        "message": "Since you appear to be a cautious person, I'd recomment this utility fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks.  If relevant, mention how the product helps the community.", 
+        "id": 4, 
+        "label": "OpenWealth Telecom and Utilities Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4739, 
+            "Stability": 0.9739, 
+            "Ideal": 0.4739, 
+            "Conservation": 0.4739, 
+            "Cautiousness": 0.9739, 
+            "Orderliness": 0.4739, 
+            "Structure": 0.5261
+        }, 
+        "message": "Since you appear to be a cautious person, I'd recomment this gold fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks.  If relevant, mention how the product helps the community.", 
+        "id": 5, 
+        "label": "Select Gold Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4696, 
+            "Stability": 0.9695999999999999, 
+            "Ideal": 0.4696, 
+            "Conservation": 0.4696, 
+            "Cautiousness": 0.9695999999999999, 
+            "Orderliness": 0.4696, 
+            "Structure": 0.5304
+        }, 
+        "message": "Since you appear to be a cautious person, I'd recomment this global balanced fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks.  If relevant, mention how the product helps the community.", 
+        "id": 6, 
+        "label": "OpenWealth Global Balanced Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.46520000000000006, 
+            "Stability": 0.9652, 
+            "Ideal": 0.46520000000000006, 
+            "Conservation": 0.46520000000000006, 
+            "Cautiousness": 0.9652, 
+            "Orderliness": 0.46520000000000006, 
+            "Structure": 0.5347999999999999
+        }, 
+        "message": "I detect stability is important to you so I selected this strategic income fund has relatively low risk.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 7, 
+        "label": "OpenWealth Strategic Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.46090000000000003, 
+            "Stability": 0.9609000000000001, 
+            "Ideal": 0.46090000000000003, 
+            "Conservation": 0.46090000000000003, 
+            "Cautiousness": 0.9609000000000001, 
+            "Orderliness": 0.46090000000000003, 
+            "Structure": 0.5390999999999999
+        }, 
+        "message": "I detect stability is important to you so I selected this balanced fund has relatively low risk.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 8, 
+        "label": "OpenWealth Balanced Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4522, 
+            "Stability": 0.9521999999999999, 
+            "Ideal": 0.4522, 
+            "Conservation": 0.4522, 
+            "Cautiousness": 0.9521999999999999, 
+            "Orderliness": 0.4522, 
+            "Structure": 0.5478000000000001
+        }, 
+        "message": "I detect stability is important to you so I selected this dividend and income fund has relatively low risk.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 9, 
+        "label": "OpenWealth Strategic Dividend & Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.45649999999999996, 
+            "Stability": 0.9565, 
+            "Ideal": 0.45649999999999996, 
+            "Conservation": 0.45649999999999996, 
+            "Cautiousness": 0.9565, 
+            "Orderliness": 0.45649999999999996, 
+            "Structure": 0.5435
+        }, 
+        "message": "I detect stability is important to you so I selected this Purtin fund has relatively low risk.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 10, 
+        "label": "OpenWealth Puritan Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.44780000000000003, 
+            "Stability": 0.9478, 
+            "Ideal": 0.44780000000000003, 
+            "Conservation": 0.44780000000000003, 
+            "Cautiousness": 0.9478, 
+            "Orderliness": 0.44780000000000003, 
+            "Structure": 0.5522
+        }, 
+        "message": "I detect stability is important to you so I selected this telecommunicaitons fund has relatively low risk.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 11, 
+        "label": "Select Telecommunications Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4435, 
+            "Stability": 0.9434999999999999, 
+            "Ideal": 0.4435, 
+            "Conservation": 0.4435, 
+            "Cautiousness": 0.9434999999999999, 
+            "Orderliness": 0.4435, 
+            "Structure": 0.5565
+        }, 
+        "message": "I detect stability is important to you so I selected this mutual fund has relatively low risk.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 12, 
+        "label": "Select Consumer Staples Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4391, 
+            "Stability": 0.9390999999999999, 
+            "Ideal": 0.4391, 
+            "Conservation": 0.4391, 
+            "Cautiousness": 0.9390999999999999, 
+            "Orderliness": 0.4391, 
+            "Structure": 0.5609000000000001
+        }, 
+        "message": "I detect stability is important to you so I selected this municipal income fund has relatively low risk.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 13, 
+        "label": "OpenWealth Intermediate Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4304, 
+            "Stability": 0.9304000000000001, 
+            "Ideal": 0.4304, 
+            "Conservation": 0.4304, 
+            "Cautiousness": 0.9304000000000001, 
+            "Orderliness": 0.4304, 
+            "Structure": 0.5696
+        }, 
+        "message": "I detect stability is important to you so I selected this pharmecuticals fund has relatively low risk and high yield.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 14, 
+        "label": "Select Pharmaceuticals Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.43479999999999996, 
+            "Stability": 0.9348000000000001, 
+            "Ideal": 0.43479999999999996, 
+            "Conservation": 0.43479999999999996, 
+            "Cautiousness": 0.9348000000000001, 
+            "Orderliness": 0.43479999999999996, 
+            "Structure": 0.5652
+        }, 
+        "message": "I detect stability is important to you so I selected this mutual fund has relatively low risk.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 15, 
+        "label": "OpenWealth Low-Priced Stock Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4261, 
+            "Stability": 0.9261, 
+            "Ideal": 0.4261, 
+            "Conservation": 0.4261, 
+            "Cautiousness": 0.9261, 
+            "Orderliness": 0.4261, 
+            "Structure": 0.5739
+        }, 
+        "message": "You appear to favor that which is sensible, tried and tested so I suggest this wireless portfolio.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 16, 
+        "label": "Select Wireless Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4217, 
+            "Stability": 0.9217, 
+            "Ideal": 0.4217, 
+            "Conservation": 0.4217, 
+            "Cautiousness": 0.9217, 
+            "Orderliness": 0.4217, 
+            "Structure": 0.5783
+        }, 
+        "message": "You appear to favor that which is sensible, tried and tested so I suggest this income fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 17, 
+        "label": "OpenWealth Government Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4174, 
+            "Stability": 0.9174, 
+            "Ideal": 0.4174, 
+            "Conservation": 0.4174, 
+            "Cautiousness": 0.9174, 
+            "Orderliness": 0.4174, 
+            "Structure": 0.5826
+        }, 
+        "message": "You appear to favor that which is sensible, tried and tested so I suggest this high yield air transportation fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 18, 
+        "label": "Select Air Transportation Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.413, 
+            "Stability": 0.9129999999999999, 
+            "Ideal": 0.413, 
+            "Conservation": 0.413, 
+            "Cautiousness": 0.9129999999999999, 
+            "Orderliness": 0.413, 
+            "Structure": 0.5870000000000001
+        }, 
+        "message": "You appear to favor that which is sensible, tried and tested so I suggest this small cap fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 19, 
+        "label": "OpenWealth International Small Cap Opportunities Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.40869999999999995, 
+            "Stability": 0.9087000000000001, 
+            "Ideal": 0.40869999999999995, 
+            "Conservation": 0.40869999999999995, 
+            "Cautiousness": 0.9087000000000001, 
+            "Orderliness": 0.40869999999999995, 
+            "Structure": 0.5913
+        }, 
+        "message": "You appear to favor that which is sensible, tried and tested so I suggest this mutual fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 20, 
+        "label": "OpenWealth Mid-Cap Stock Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.4, 
+            "Stability": 0.9, 
+            "Ideal": 0.4, 
+            "Conservation": 0.4, 
+            "Cautiousness": 0.9, 
+            "Orderliness": 0.4, 
+            "Structure": 0.6
+        }, 
+        "message": "You appear to favor that which is sensible, tried and tested so I suggest this health care fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 21, 
+        "label": "Select Health Care Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3957, 
+            "Stability": 0.8956999999999999, 
+            "Ideal": 0.3957, 
+            "Conservation": 0.3957, 
+            "Cautiousness": 0.8956999999999999, 
+            "Orderliness": 0.3957, 
+            "Structure": 0.6043
+        }, 
+        "message": "You appear to favor that which is sensible, tried and tested so I suggest this municipal income fund.", 
+        "strategy": "This person appears to be very cautious so they like to know the details of a product so they can better predict the outcome. They are slow to trust but once they do they stay loyal so invest the time to make them comfortable. They will be skeptical of something that sounds too good so give a balanced pictures of the rewards and risks. ", 
+        "id": 22, 
+        "label": "OpenWealth Michigan Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.387, 
+            "Stability": 0.887, 
+            "Ideal": 0.387, 
+            "Conservation": 0.387, 
+            "Cautiousness": 0.887, 
+            "Orderliness": 0.387, 
+            "Structure": 0.613
+        }, 
+        "message": "This growth fund with a high Morningstart rating should address your cautious nature.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 23, 
+        "label": "OpenWealth International Growth Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3739, 
+            "Stability": 0.8739, 
+            "Ideal": 0.3739, 
+            "Conservation": 0.3739, 
+            "Cautiousness": 0.8739, 
+            "Orderliness": 0.3739, 
+            "Structure": 0.6261
+        }, 
+        "message": "This international small cap fund should address your cautious nature.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 24, 
+        "label": "OpenWealth International Small Cap Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.02, 
+            "Stability": 0.8695999999999999, 
+            "Ideal": 0.3696, 
+            "Conservation": 0.3696, 
+            "Cautiousness": 0.8695999999999999, 
+            "Orderliness": 0.3696, 
+            "Structure": 0.6304
+        }, 
+        "message": "This biotech fund has modest risk and high yield so it should address your sense of adventure.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 25, 
+        "label": "Select Biotechnology Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3826, 
+            "Stability": 0.8826, 
+            "Ideal": 0.3826, 
+            "Conservation": 0.3826, 
+            "Cautiousness": 0.8826, 
+            "Orderliness": 0.3826, 
+            "Structure": 0.6174000000000001
+        }, 
+        "message": "This government fund should address your cautious nature.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 26, 
+        "label": "OpenWealth Limited Term Government Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2, 
+            "Stability": 0.8609, 
+            "Ideal": 0.36090000000000005, 
+            "Conservation": 0.36090000000000005, 
+            "Cautiousness": 0.8609, 
+            "Orderliness": 0.36090000000000005, 
+            "Structure": 0.6391
+        }, 
+        "message": "I selected this defense and aerospace fund for you because it has moderate risk and high return.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 27, 
+        "label": "Select Defense and Aerospace Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3565, 
+            "Stability": 0.8565, 
+            "Ideal": 0.3565, 
+            "Conservation": 0.3565, 
+            "Cautiousness": 0.8565, 
+            "Orderliness": 0.3565, 
+            "Structure": 0.6435
+        }, 
+        "message": "This equity fund should address your cautious nature.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 28, 
+        "label": "OpenWealth Total International Equity Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3652, 
+            "Stability": 0.8652, 
+            "Ideal": 0.3652, 
+            "Conservation": 0.3652, 
+            "Cautiousness": 0.8652, 
+            "Orderliness": 0.3652, 
+            "Structure": 0.6347999999999999
+        }, 
+        "message": "This fund with a high Morningstart rating should address your cautious nature.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 29, 
+        "label": "OpenWealth New Millennium Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3435, 
+            "Stability": 0.8434999999999999, 
+            "Ideal": 0.3435, 
+            "Conservation": 0.3435, 
+            "Cautiousness": 0.8434999999999999, 
+            "Orderliness": 0.3435, 
+            "Structure": 0.6565000000000001
+        }, 
+        "message": "This small cap growth fund may appeal to your desire for stability with a good return.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 30, 
+        "label": "OpenWealth Small Cap Growth Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3478, 
+            "Stability": 0.8478, 
+            "Ideal": 0.3478, 
+            "Conservation": 0.3478, 
+            "Cautiousness": 0.8478, 
+            "Orderliness": 0.3478, 
+            "Structure": 0.6522
+        }, 
+        "message": "This fund may appeal to your desire for stability. ", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 31, 
+        "label": "OpenWealth Contrafund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3522, 
+            "Stability": 0.8522, 
+            "Ideal": 0.3522, 
+            "Conservation": 0.3522, 
+            "Cautiousness": 0.8522, 
+            "Orderliness": 0.3522, 
+            "Structure": 0.6478
+        }, 
+        "message": "This tax-free bond fund should address your cautious nature.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 32, 
+        "label": "OpenWealth Tax-Free Bond Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.33039999999999997, 
+            "Stability": 0.8304, 
+            "Ideal": 0.33039999999999997, 
+            "Conservation": 0.33039999999999997, 
+            "Cautiousness": 0.8304, 
+            "Orderliness": 0.33039999999999997, 
+            "Structure": 0.6696
+        }, 
+        "message": "This emerging markets fund may appeal to your desire for stability with a good return.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 33, 
+        "label": "OpenWealth Emerging Markets Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3348, 
+            "Stability": 0.8348, 
+            "Ideal": 0.3348, 
+            "Conservation": 0.3348, 
+            "Cautiousness": 0.8348, 
+            "Orderliness": 0.3348, 
+            "Structure": 0.6652
+        }, 
+        "message": "This real estate investment fund should appeal to your desire for stability with a good return.", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 34, 
+        "label": "OpenWealth Real Estate Investment Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.33909999999999996, 
+            "Stability": 0.8391, 
+            "Ideal": 0.33909999999999996, 
+            "Conservation": 0.33909999999999996, 
+            "Cautiousness": 0.8391, 
+            "Orderliness": 0.33909999999999996, 
+            "Structure": 0.6609
+        }, 
+        "message": "This municipal income fund may appeal to your desire for stability. ", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 35, 
+        "label": "OpenWealth Connecticut Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3261, 
+            "Stability": 0.8261, 
+            "Ideal": 0.3261, 
+            "Conservation": 0.3261, 
+            "Cautiousness": 0.8261, 
+            "Orderliness": 0.3261, 
+            "Structure": 0.6739
+        }, 
+        "message": "This China region fund with a high Morningstart rating may appeal to your desire for stability. ", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 36, 
+        "label": "OpenWealth China Region Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.32170000000000004, 
+            "Stability": 0.8217, 
+            "Ideal": 0.32170000000000004, 
+            "Conservation": 0.32170000000000004, 
+            "Cautiousness": 0.8217, 
+            "Orderliness": 0.32170000000000004, 
+            "Structure": 0.6783
+        }, 
+        "message": "This fund may appeal to your desire for stability. ", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. They seek stability so describe how the product is well tested and reliable. Give them an overview of the whole picture, how the product work in the context of their life.  ", 
+        "id": 37, 
+        "label": "Select Consumer Finance Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3043, 
+            "Stability": 0.8043, 
+            "Ideal": 0.3043, 
+            "Conservation": 0.3043, 
+            "Cautiousness": 0.8043, 
+            "Orderliness": 0.3043, 
+            "Structure": 0.6957
+        }, 
+        "message": "I selected this income fund for you because it's relatively low risk matches well with your cautious nature.", 
+        "strategy": "This person appears to be cautious but can tolerate moderate risk. Give a well-rounded view of the up and down sides of the product and outcomes, focusing on how the pieces of the product work together or are organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 38, 
+        "label": "OpenWealth New Markets Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.30870000000000003, 
+            "Stability": 0.8087000000000001, 
+            "Ideal": 0.30870000000000003, 
+            "Conservation": 0.30870000000000003, 
+            "Cautiousness": 0.8087000000000001, 
+            "Orderliness": 0.30870000000000003, 
+            "Structure": 0.6912999999999999
+        }, 
+        "message": "I selected this international fund for you because it's relatively low risk matches well with your cautious nature.", 
+        "strategy": "This person appears to be cautious but can tolerate moderate risk. Give a well-rounded view of the up and down sides of the product and outcomes, focusing on how the pieces of the product work together or are organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 39, 
+        "label": "OpenWealth International Discovery Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.313, 
+            "Stability": 0.813, 
+            "Ideal": 0.313, 
+            "Conservation": 0.313, 
+            "Cautiousness": 0.813, 
+            "Orderliness": 0.313, 
+            "Structure": 0.687
+        }, 
+        "message": "I selected this diversified fund for you because it's relatively low risk matches well with your cautious nature.", 
+        "strategy": "This person appears to be cautious but can tolerate moderate risk. Give a well-rounded view of the up and down sides of the product and outcomes, focusing on how the pieces of the product work together or are organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 40, 
+        "label": "OpenWealth Diversified International Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.31739999999999996, 
+            "Stability": 0.8173999999999999, 
+            "Ideal": 0.31739999999999996, 
+            "Conservation": 0.31739999999999996, 
+            "Cautiousness": 0.8173999999999999, 
+            "Orderliness": 0.31739999999999996, 
+            "Structure": 0.6826000000000001
+        }, 
+        "message": "This bond fund may appeal to your desire for stability. ", 
+        "strategy": "This person appears to be cautious so they like to know the details of a product so they can better predict the outcome. Give them an overview of the whole picture, how the bond fund will provide for them in the context of their life.  ", 
+        "id": 41, 
+        "label": "OpenWealth Total Bond Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.3, 
+            "Stability": 0.8, 
+            "Ideal": 0.3, 
+            "Conservation": 0.3, 
+            "Cautiousness": 0.8, 
+            "Orderliness": 0.3, 
+            "Structure": 0.7
+        }, 
+        "message": "I selected this large cap fund for you because it's relatively low risk matches well with your cautious nature.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the index fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 42, 
+        "label": "OpenWealth Large Cap Core Enhanced Index Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.287, 
+            "Stability": 0.787, 
+            "Ideal": 0.287, 
+            "Conservation": 0.287, 
+            "Cautiousness": 0.787, 
+            "Orderliness": 0.287, 
+            "Structure": 0.713
+        }, 
+        "message": "I selected this emerging Asia fund for you because it's relatively low risk matches well with your cautious nature.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 43, 
+        "label": "OpenWealth Emerging Asia Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2913, 
+            "Stability": 0.7913, 
+            "Ideal": 0.2913, 
+            "Conservation": 0.2913, 
+            "Cautiousness": 0.7913, 
+            "Orderliness": 0.2913, 
+            "Structure": 0.7087
+        }, 
+        "message": "I selected this Eurpean fund for you because it's relatively low risk matches well with your cautious nature.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 44, 
+        "label": "OpenWealth Europe Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2826, 
+            "Stability": 0.7826000000000001, 
+            "Ideal": 0.2826, 
+            "Conservation": 0.2826, 
+            "Cautiousness": 0.7826000000000001, 
+            "Orderliness": 0.2826, 
+            "Structure": 0.7173999999999999
+        }, 
+        "message": "I selected this retailing fund for you because it's relatively low risk with good yield which matches well with your cautious nature.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the portfolio is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 45, 
+        "label": "Select Retailing Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2957, 
+            "Stability": 0.7957, 
+            "Ideal": 0.2957, 
+            "Conservation": 0.2957, 
+            "Cautiousness": 0.7957, 
+            "Orderliness": 0.2957, 
+            "Structure": 0.7043
+        }, 
+        "message": "I selected this international index fund for you because it's relatively low risk matches well with your cautious nature.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the index fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 46, 
+        "label": "Spartan International Index Fund - Investor Class"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2652, 
+            "Stability": 0.7652, 
+            "Ideal": 0.2652, 
+            "Conservation": 0.2652, 
+            "Cautiousness": 0.7652, 
+            "Orderliness": 0.2652, 
+            "Structure": 0.7348
+        }, 
+        "message": "This index fund is the best match I found for your cautious nature and desire for stability.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the market index fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 47, 
+        "label": "Spartan Extended Market Index Fund - Investor Class"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2696, 
+            "Stability": 0.7696, 
+            "Ideal": 0.2696, 
+            "Conservation": 0.2696, 
+            "Cautiousness": 0.7696, 
+            "Orderliness": 0.2696, 
+            "Structure": 0.7304
+        }, 
+        "message": "This index fund is the best match I found for your cautious nature and desire for stability.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the composite index fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 48, 
+        "label": "OpenWealth Nasdaq Composite Index Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.27390000000000003, 
+            "Stability": 0.7739, 
+            "Ideal": 0.27390000000000003, 
+            "Conservation": 0.27390000000000003, 
+            "Cautiousness": 0.7739, 
+            "Orderliness": 0.27390000000000003, 
+            "Structure": 0.7261
+        }, 
+        "message": "This index fund is the best match I found for your cautious nature and desire for stability.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the market index fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 49, 
+        "label": "Spartan Total Market Index Fund - Investor Class"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2783, 
+            "Stability": 0.7783, 
+            "Ideal": 0.2783, 
+            "Conservation": 0.2783, 
+            "Cautiousness": 0.7783, 
+            "Orderliness": 0.2783, 
+            "Structure": 0.7217
+        }, 
+        "message": "I selected this index fund for you because it's relatively low risk matches well with your cautious nature.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the index fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 50, 
+        "label": "Spartan 500 Index Fund - Investor Class"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2609, 
+            "Stability": 0.7609, 
+            "Ideal": 0.2609, 
+            "Conservation": 0.2609, 
+            "Cautiousness": 0.7609, 
+            "Orderliness": 0.2609, 
+            "Structure": 0.7391
+        }, 
+        "message": "This Japan fund is the best match I found for your cautious nature and desire for stability.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the Japan fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 51, 
+        "label": "OpenWealth Japan Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2522, 
+            "Stability": 0.7522, 
+            "Ideal": 0.2522, 
+            "Conservation": 0.2522, 
+            "Cautiousness": 0.7522, 
+            "Orderliness": 0.2522, 
+            "Structure": 0.7478
+        }, 
+        "message": "This large cap fund is the best match I found for your cautious nature and desire for stability.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the stocks in this fund are selected. They are willing to take risks as long as they understand the terrain.", 
+        "id": 52, 
+        "label": "OpenWealth Stock Selector Large Cap Value Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.24350000000000002, 
+            "Stability": 0.7434999999999999, 
+            "Ideal": 0.24350000000000002, 
+            "Conservation": 0.24350000000000002, 
+            "Cautiousness": 0.7434999999999999, 
+            "Orderliness": 0.24350000000000002, 
+            "Structure": 0.7565000000000001
+        }, 
+        "message": "This small cap fund is the best match I found for your cautious nature and desire for stability.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the stocks in this index fund are selected. They are willing to take risks as long as they understand the terrain.", 
+        "id": 53, 
+        "label": "OpenWealth Small Cap Enhanced Index Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.24780000000000002, 
+            "Stability": 0.7478, 
+            "Ideal": 0.24780000000000002, 
+            "Conservation": 0.24780000000000002, 
+            "Cautiousness": 0.7478, 
+            "Orderliness": 0.24780000000000002, 
+            "Structure": 0.7522
+        }, 
+        "message": "This worldwide fund is the best match I found for your cautious nature and desire for stability.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how the stocks in this international fund are selected. They are willing to take risks as long as they understand the terrain.", 
+        "id": 54, 
+        "label": "OpenWealth Worldwide Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2565, 
+            "Stability": 0.7565000000000001, 
+            "Ideal": 0.2565, 
+            "Conservation": 0.2565, 
+            "Cautiousness": 0.7565000000000001, 
+            "Orderliness": 0.2565, 
+            "Structure": 0.7434999999999999
+        }, 
+        "message": "This municipal income fund is the best match I found for your cautious nature and desire for stability.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the fund and outcomes, focusing on how assets are selected and allocated in this municipal income fund are selected. They are willing to take risks as long as they understand the terrain.", 
+        "id": 55, 
+        "label": "OpenWealth Pennsylvania Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2348, 
+            "Stability": 0.7348, 
+            "Ideal": 0.2348, 
+            "Conservation": 0.2348, 
+            "Cautiousness": 0.7348, 
+            "Orderliness": 0.2348, 
+            "Structure": 0.7652
+        }, 
+        "message": "This income fund should appeal to your desire for order and structure.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the product and outcomes, focusing on how assets in this government income fund are selected. They are willing to take risks as long as they understand the terrain.", 
+        "id": 56, 
+        "label": "OpenWealth Intermediate Government Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2391, 
+            "Stability": 0.7391, 
+            "Ideal": 0.2391, 
+            "Conservation": 0.2391, 
+            "Cautiousness": 0.7391, 
+            "Orderliness": 0.2391, 
+            "Structure": 0.7609
+        }, 
+        "message": "This growth and income fund should appeal to your desire for order and structure.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the product and outcomes, focusing on how the pieces of the product work together or are organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 57, 
+        "label": "OpenWealth Growth & Income Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2304, 
+            "Stability": 0.7304, 
+            "Ideal": 0.2304, 
+            "Conservation": 0.2304, 
+            "Cautiousness": 0.7304, 
+            "Orderliness": 0.2304, 
+            "Structure": 0.7696
+        }, 
+        "message": "This bond fund should appeal to your desire for order and structure.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the product and outcomes, focusing the long-term strategy of this bond index fund. They are willing to take risks as long as they understand the terrain.", 
+        "id": 58, 
+        "label": "Spartan Long-Term Treasury Bond Index Fund - Investor Class"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2261, 
+            "Stability": 0.7261, 
+            "Ideal": 0.2261, 
+            "Conservation": 0.2261, 
+            "Cautiousness": 0.7261, 
+            "Orderliness": 0.2261, 
+            "Structure": 0.7739
+        }, 
+        "message": "This bond fund should appeal to your desire for order and structure.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the product and outcomes, focusing on how this index fund is organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 59, 
+        "label": "Spartan Intermediate Treasury Bond Index Fund - Investor Class"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2217, 
+            "Stability": 0.7217, 
+            "Ideal": 0.2217, 
+            "Conservation": 0.2217, 
+            "Cautiousness": 0.7217, 
+            "Orderliness": 0.2217, 
+            "Structure": 0.7783
+        }, 
+        "message": "This indexed fund with a high Morningstart rating should appeal to your desire for order and structure.", 
+        "strategy": "This person appears to be cautious with moderate risk tolerance. Give a well-rounded view of the up and down sides of the product and outcomes, focusing on how the pieces of the product work together or are organized. They are willing to take risks as long as they understand the terrain.", 
+        "id": 60, 
+        "label": "OpenWealth Mid Cap Enhanced Index Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2087, 
+            "Stability": 0.7087, 
+            "Ideal": 0.2087, 
+            "Conservation": 0.2087, 
+            "Cautiousness": 0.7087, 
+            "Orderliness": 0.2087, 
+            "Structure": 0.7913
+        }, 
+        "message": "This capital appreciation fund has a little more risk than others, but you appear to be up for a little challenge.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 61, 
+        "label": "OpenWealth Capital Appreciation Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.21739999999999998, 
+            "Stability": 0.7173999999999999, 
+            "Ideal": 0.21739999999999998, 
+            "Conservation": 0.21739999999999998, 
+            "Cautiousness": 0.7173999999999999, 
+            "Orderliness": 0.21739999999999998, 
+            "Structure": 0.7826000000000001
+        }, 
+        "message": "This bond index fund should appeal to your desire for order and structure.", 
+        "strategy": "This person appears to be cautious and likes structure and stability. Give a well-rounded view of the product, focusing on how the pieces of the product work together or are organized. They are willing to take risks as long as they understand how the product will meet their needs.", 
+        "id": 62, 
+        "label": "Spartan U.S. Bond Index Fund - Investor Class"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.213, 
+            "Stability": 0.713, 
+            "Ideal": 0.213, 
+            "Conservation": 0.213, 
+            "Cautiousness": 0.713, 
+            "Orderliness": 0.213, 
+            "Structure": 0.787
+        }, 
+        "message": "This bond fund has a little more risk than others, but you appear to be up for a little challenge.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 63, 
+        "label": "OpenWealth Investment Grade Bond Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2043, 
+            "Stability": 0.7043, 
+            "Ideal": 0.2043, 
+            "Conservation": 0.2043, 
+            "Cautiousness": 0.7043, 
+            "Orderliness": 0.2043, 
+            "Structure": 0.7957
+        }, 
+        "message": "This income fund has a little more risk than others, but you appear to be up for a little challenge.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 64, 
+        "label": "OpenWealth New Jersey Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.2, 
+            "Stability": 0.7, 
+            "Ideal": 0.2, 
+            "Conservation": 0.2, 
+            "Cautiousness": 0.7, 
+            "Orderliness": 0.2, 
+            "Structure": 0.8
+        }, 
+        "message": "This stock fund has a little more risk than others, but you appear to be up for a little challenge.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 65, 
+        "label": "OpenWealth Focused Stock Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1913, 
+            "Stability": 0.6912999999999999, 
+            "Ideal": 0.1913, 
+            "Conservation": 0.1913, 
+            "Cautiousness": 0.6912999999999999, 
+            "Orderliness": 0.1913, 
+            "Structure": 0.8087000000000001
+        }, 
+        "message": "This income fund has a little more risk than others, but you appear to be up for a little challenge.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 66, 
+        "label": "OpenWealth California Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1783, 
+            "Stability": 0.6783, 
+            "Ideal": 0.1783, 
+            "Conservation": 0.1783, 
+            "Cautiousness": 0.6783, 
+            "Orderliness": 0.1783, 
+            "Structure": 0.8217
+        }, 
+        "message": "This fund should appeal to your sense of order and structure.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 67, 
+        "label": "OpenWealth Pacific Basin Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1826, 
+            "Stability": 0.6826000000000001, 
+            "Ideal": 0.1826, 
+            "Conservation": 0.1826, 
+            "Cautiousness": 0.6826000000000001, 
+            "Orderliness": 0.1826, 
+            "Structure": 0.8173999999999999
+        }, 
+        "message": "This high income fund should appeal to your sense of order and structure.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 68, 
+        "label": "OpenWealth High Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1957, 
+            "Stability": 0.6957, 
+            "Ideal": 0.1957, 
+            "Conservation": 0.1957, 
+            "Cautiousness": 0.6957, 
+            "Orderliness": 0.1957, 
+            "Structure": 0.8043
+        }, 
+        "message": "This income fund has a little more risk than others, but you appear to be up for a little challenge.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 69, 
+        "label": "OpenWealth New York Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1739, 
+            "Stability": 0.6739, 
+            "Ideal": 0.1739, 
+            "Conservation": 0.1739, 
+            "Cautiousness": 0.6739, 
+            "Orderliness": 0.1739, 
+            "Structure": 0.8261
+        }, 
+        "message": "This corporate bond fund should appeal to your sense of order and structure.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 70, 
+        "label": "OpenWealth Corporate Bond Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.187, 
+            "Stability": 0.687, 
+            "Ideal": 0.187, 
+            "Conservation": 0.187, 
+            "Cautiousness": 0.687, 
+            "Orderliness": 0.187, 
+            "Structure": 0.813
+        }, 
+        "message": "This fund with a high Morningstart rating has a little more risk than others, but you appear to be up for a little challenge.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 71, 
+        "label": "OpenWealth GNMA Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1609, 
+            "Stability": 0.6609, 
+            "Ideal": 0.1609, 
+            "Conservation": 0.1609, 
+            "Cautiousness": 0.6609, 
+            "Orderliness": 0.1609, 
+            "Structure": 0.8391
+        }, 
+        "message": "I picked this capital appreciation fund for you since you are cautious but open to change.", 
+        "strategy": "This person appears to be adventurous; a pragmatic risk taker who likes structure so explain how the product works to meet their needs. ", 
+        "id": 72, 
+        "label": "OpenWealth International Capital Appreciation Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1522, 
+            "Stability": 0.6522, 
+            "Ideal": 0.1522, 
+            "Conservation": 0.1522, 
+            "Cautiousness": 0.6522, 
+            "Orderliness": 0.1522, 
+            "Structure": 0.8478
+        }, 
+        "message": "This high yield transportation fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 73, 
+        "label": "Select Transportation Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1565, 
+            "Stability": 0.6565000000000001, 
+            "Ideal": 0.1565, 
+            "Conservation": 0.1565, 
+            "Cautiousness": 0.6565000000000001, 
+            "Orderliness": 0.1565, 
+            "Structure": 0.8434999999999999
+        }, 
+        "message": "I picked this mid cap fund for you since you are cautious but open to change.", 
+        "strategy": "This person appears to be adventurous; a pragmatic risk taker who likes structure so explain how the product works to meet their needs. ", 
+        "id": 74, 
+        "label": "OpenWealth Mid Cap Value Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.16519999999999999, 
+            "Stability": 0.6652, 
+            "Ideal": 0.16519999999999999, 
+            "Conservation": 0.16519999999999999, 
+            "Cautiousness": 0.6652, 
+            "Orderliness": 0.16519999999999999, 
+            "Structure": 0.8348
+        }, 
+        "message": "I picked this income fund for you since you are cautious but open to change.", 
+        "strategy": "This person appears to be adventurous; a pragmatic risk taker who likes structure so explain how the product works to meet their needs. ", 
+        "id": 75, 
+        "label": "OpenWealth Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1696, 
+            "Stability": 0.6696, 
+            "Ideal": 0.1696, 
+            "Conservation": 0.1696, 
+            "Cautiousness": 0.6696, 
+            "Orderliness": 0.1696, 
+            "Structure": 0.8304
+        }, 
+        "message": "This income fund should appeal to your sense of order and structure.", 
+        "strategy": "This person appears to be adventurous and a risk taker but likes structure so explain how the product works to meet their needs. They like change so explain how the product can bring about something new in their life.", 
+        "id": 76, 
+        "label": "OpenWealth Ohio Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1435, 
+            "Stability": 0.6435, 
+            "Ideal": 0.1435, 
+            "Conservation": 0.1435, 
+            "Cautiousness": 0.6435, 
+            "Orderliness": 0.1435, 
+            "Structure": 0.8565
+        }, 
+        "message": "This growth fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 77, 
+        "label": "OpenWealth Growth Strategies Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1478, 
+            "Stability": 0.6478, 
+            "Ideal": 0.1478, 
+            "Conservation": 0.1478, 
+            "Cautiousness": 0.6478, 
+            "Orderliness": 0.1478, 
+            "Structure": 0.8522
+        }, 
+        "message": "This bond fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 78, 
+        "label": "OpenWealth Intermediate Bond Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1391, 
+            "Stability": 0.6391, 
+            "Ideal": 0.1391, 
+            "Conservation": 0.1391, 
+            "Cautiousness": 0.6391, 
+            "Orderliness": 0.1391, 
+            "Structure": 0.8609
+        }, 
+        "message": "This real estate fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 79, 
+        "label": "OpenWealth International Real Estate Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1348, 
+            "Stability": 0.6347999999999999, 
+            "Ideal": 0.1348, 
+            "Conservation": 0.1348, 
+            "Cautiousness": 0.6347999999999999, 
+            "Orderliness": 0.1348, 
+            "Structure": 0.8652
+        }, 
+        "message": "This securities fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 80, 
+        "label": "OpenWealth Mortgage Securities Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1304, 
+            "Stability": 0.6304, 
+            "Ideal": 0.1304, 
+            "Conservation": 0.1304, 
+            "Cautiousness": 0.6304, 
+            "Orderliness": 0.1304, 
+            "Structure": 0.8695999999999999
+        }, 
+        "message": "This value fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 81, 
+        "label": "OpenWealth Value Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1217, 
+            "Stability": 0.6217, 
+            "Ideal": 0.1217, 
+            "Conservation": 0.1217, 
+            "Cautiousness": 0.6217, 
+            "Orderliness": 0.1217, 
+            "Structure": 0.8783
+        }, 
+        "message": "This consumer discretionary fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 82, 
+        "label": "Select Consumer Discretionary Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1261, 
+            "Stability": 0.6261, 
+            "Ideal": 0.1261, 
+            "Conservation": 0.1261, 
+            "Cautiousness": 0.6261, 
+            "Orderliness": 0.1261, 
+            "Structure": 0.8739
+        }, 
+        "message": "This overseas fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 83, 
+        "label": "OpenWealth Overseas Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.10869999999999999, 
+            "Stability": 0.6087, 
+            "Ideal": 0.10869999999999999, 
+            "Conservation": 0.10869999999999999, 
+            "Cautiousness": 0.6087, 
+            "Orderliness": 0.10869999999999999, 
+            "Structure": 0.8913
+        }, 
+        "message": "This value fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 84, 
+        "label": "OpenWealth Value Strategies Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.113, 
+            "Stability": 0.613, 
+            "Ideal": 0.113, 
+            "Conservation": 0.113, 
+            "Cautiousness": 0.613, 
+            "Orderliness": 0.113, 
+            "Structure": 0.887
+        }, 
+        "message": "This insurance fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 85, 
+        "label": "Select Insurance Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1174, 
+            "Stability": 0.6174000000000001, 
+            "Ideal": 0.1174, 
+            "Conservation": 0.1174, 
+            "Cautiousness": 0.6174000000000001, 
+            "Orderliness": 0.1174, 
+            "Structure": 0.8826
+        }, 
+        "message": "This municipal income fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 86, 
+        "label": "OpenWealth Massachusetts Municipal Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1, 
+            "Stability": 0.6, 
+            "Ideal": 0.1, 
+            "Conservation": 0.1, 
+            "Cautiousness": 0.6, 
+            "Orderliness": 0.1, 
+            "Structure": 0.9
+        }, 
+        "message": "This fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 87, 
+        "label": "Select Leisure Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.1043, 
+            "Stability": 0.6043, 
+            "Ideal": 0.1043, 
+            "Conservation": 0.1043, 
+            "Cautiousness": 0.6043, 
+            "Orderliness": 0.1043, 
+            "Structure": 0.8956999999999999
+        }, 
+        "message": "This large cap fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 88, 
+        "label": "OpenWealth Large Cap Stock Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.09570000000000001, 
+            "Stability": 0.5957, 
+            "Ideal": 0.09570000000000001, 
+            "Conservation": 0.09570000000000001, 
+            "Cautiousness": 0.5957, 
+            "Orderliness": 0.09570000000000001, 
+            "Structure": 0.9043000000000001
+        }, 
+        "message": "This technology fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 89, 
+        "label": "Select Technology Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0913, 
+            "Stability": 0.5913, 
+            "Ideal": 0.0913, 
+            "Conservation": 0.0913, 
+            "Cautiousness": 0.5913, 
+            "Orderliness": 0.0913, 
+            "Structure": 0.9087000000000001
+        }, 
+        "message": "This high yield software and computer services fund has moderate risk and a high Morningstart rating which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 90, 
+        "label": "Select Software and Computer Services Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.087, 
+            "Stability": 0.5870000000000001, 
+            "Ideal": 0.087, 
+            "Conservation": 0.087, 
+            "Cautiousness": 0.5870000000000001, 
+            "Orderliness": 0.087, 
+            "Structure": 0.9129999999999999
+        }, 
+        "message": "This multimedia fund has moderate risk and a high Morningstart rating which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 91, 
+        "label": "Select Multimedia Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.08259999999999999, 
+            "Stability": 0.5826, 
+            "Ideal": 0.08259999999999999, 
+            "Conservation": 0.08259999999999999, 
+            "Cautiousness": 0.5826, 
+            "Orderliness": 0.08259999999999999, 
+            "Structure": 0.9174
+        }, 
+        "message": "This banking fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 92, 
+        "label": "Select Banking Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0783, 
+            "Stability": 0.5783, 
+            "Ideal": 0.0783, 
+            "Conservation": 0.0783, 
+            "Cautiousness": 0.5783, 
+            "Orderliness": 0.0783, 
+            "Structure": 0.9217
+        }, 
+        "message": "This industries fund has moderate risk which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 93, 
+        "label": "Select Industrials Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0696, 
+            "Stability": 0.5696, 
+            "Ideal": 0.0696, 
+            "Conservation": 0.0696, 
+            "Cautiousness": 0.5696, 
+            "Orderliness": 0.0696, 
+            "Structure": 0.9304000000000001
+        }, 
+        "message": "This internet technologies fund has moderate risk and a high Morningstart rating which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 94, 
+        "label": "Select IT Services Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0739, 
+            "Stability": 0.5739, 
+            "Ideal": 0.0739, 
+            "Conservation": 0.0739, 
+            "Cautiousness": 0.5739, 
+            "Orderliness": 0.0739, 
+            "Structure": 0.9261
+        }, 
+        "message": "This capital and income fund has moderate risk and a high Morningstart rating which balances your cautious nature with your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 95, 
+        "label": "OpenWealth Capital & Income Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0652, 
+            "Stability": 0.5652, 
+            "Ideal": 0.0652, 
+            "Conservation": 0.0652, 
+            "Cautiousness": 0.5652, 
+            "Orderliness": 0.0652, 
+            "Structure": 0.9348000000000001
+        }, 
+        "message": "This securities fund may appeal to your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 96, 
+        "label": "OpenWealth Convertible Securities Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.060899999999999996, 
+            "Stability": 0.5609000000000001, 
+            "Ideal": 0.060899999999999996, 
+            "Conservation": 0.060899999999999996, 
+            "Cautiousness": 0.5609000000000001, 
+            "Orderliness": 0.060899999999999996, 
+            "Structure": 0.9390999999999999
+        }, 
+        "message": "This housing and construction fund may appeal to your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 97, 
+        "label": "Select Construction and Housing Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.052199999999999996, 
+            "Stability": 0.5522, 
+            "Ideal": 0.052199999999999996, 
+            "Conservation": 0.052199999999999996, 
+            "Cautiousness": 0.5522, 
+            "Orderliness": 0.052199999999999996, 
+            "Structure": 0.9478
+        }, 
+        "message": "This electronics fund may appeal to your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 98, 
+        "label": "Select Electronics Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0565, 
+            "Stability": 0.5565, 
+            "Ideal": 0.0565, 
+            "Conservation": 0.0565, 
+            "Cautiousness": 0.5565, 
+            "Orderliness": 0.0565, 
+            "Structure": 0.9434999999999999
+        }, 
+        "message": "This Japanese small companines fund may appeal to your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 99, 
+        "label": "OpenWealth Japan Smaller Companies Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0478, 
+            "Stability": 0.5478000000000001, 
+            "Ideal": 0.0478, 
+            "Conservation": 0.0478, 
+            "Cautiousness": 0.5478000000000001, 
+            "Orderliness": 0.0478, 
+            "Structure": 0.9521999999999999
+        }, 
+        "message": "This computer fund may appeal to your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 100, 
+        "label": "Select Computers Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0435, 
+            "Stability": 0.5435, 
+            "Ideal": 0.0435, 
+            "Conservation": 0.0435, 
+            "Cautiousness": 0.5435, 
+            "Orderliness": 0.0435, 
+            "Structure": 0.9565
+        }, 
+        "message": "This natural gas fund may appeal to your openness to change.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 101, 
+        "label": "Select Natural Gas Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0391, 
+            "Stability": 0.5390999999999999, 
+            "Ideal": 0.0391, 
+            "Conservation": 0.0391, 
+            "Cautiousness": 0.5390999999999999, 
+            "Orderliness": 0.0391, 
+            "Structure": 0.9609000000000001
+        }, 
+        "message": "This chemicals fund has a high yield and a high Morningstart rating should appeal to your sense of adventure.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 102, 
+        "label": "Select Chemicals Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0348, 
+            "Stability": 0.5347999999999999, 
+            "Ideal": 0.0348, 
+            "Conservation": 0.0348, 
+            "Cautiousness": 0.5347999999999999, 
+            "Orderliness": 0.0348, 
+            "Structure": 0.9652
+        }, 
+        "message": "This finanical services fund should appeal to your sense of adventure.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 103, 
+        "label": "Select Financial Services Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0304, 
+            "Stability": 0.5304, 
+            "Ideal": 0.0304, 
+            "Conservation": 0.0304, 
+            "Cautiousness": 0.5304, 
+            "Orderliness": 0.0304, 
+            "Structure": 0.9695999999999999
+        }, 
+        "message": "This high yield materials fund should appeal to your sense of adventure.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 104, 
+        "label": "Select Materials Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.026099999999999998, 
+            "Stability": 0.5261, 
+            "Ideal": 0.026099999999999998, 
+            "Conservation": 0.026099999999999998, 
+            "Cautiousness": 0.5261, 
+            "Orderliness": 0.026099999999999998, 
+            "Structure": 0.9739
+        }, 
+        "message": "This bond fund should appeal to your sense of adventure.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 105, 
+        "label": "OpenWealth Short-Term Bond Fund"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0174, 
+            "Stability": 0.5174, 
+            "Ideal": 0.0174, 
+            "Conservation": 0.0174, 
+            "Cautiousness": 0.5174, 
+            "Orderliness": 0.0174, 
+            "Structure": 0.9826
+        }, 
+        "message": "This natural resources fund should appeal to your sense of adventure.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 106, 
+        "label": "Select Natural Resources Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0217, 
+            "Stability": 0.5217, 
+            "Ideal": 0.0217, 
+            "Conservation": 0.0217, 
+            "Cautiousness": 0.5217, 
+            "Orderliness": 0.0217, 
+            "Structure": 0.9783
+        }, 
+        "message": "This fund should appeal to your sense of adventure.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 107, 
+        "label": "Select Brokerage and Investment Management Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.013000000000000001, 
+            "Stability": 0.513, 
+            "Ideal": 0.013000000000000001, 
+            "Conservation": 0.013000000000000001, 
+            "Cautiousness": 0.513, 
+            "Orderliness": 0.013000000000000001, 
+            "Structure": 0.987
+        }, 
+        "message": "This energy fund should appeal to your sense of adventure.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 108, 
+        "label": "Select Energy Portfolio"
+    }, 
+    {
+        "traits": {
+            "Vulnerability": 0.0087, 
+            "Stability": 0.5086999999999999, 
+            "Ideal": 0.0087, 
+            "Conservation": 0.0087, 
+            "Cautiousness": 0.5086999999999999, 
+            "Orderliness": 0.0087, 
+            "Structure": 0.9913
+        }, 
+        "message": "This energy fund should appeal to your sense of adventure with a good return.", 
+        "strategy": "This person appears to be very risk tolerant, pragmatic, embraces change and can handle stress well but a bit unorganized. Help them by offering taking care of details for them, offer tools to better organize and provide structure to their life.", 
+        "id": 109, 
+        "label": "Select Energy Service Portfolio"
+    }
+]
