@@ -33,7 +33,9 @@ function TwitterHelper(credentials) {
   var self = this;
   credentials.forEach(function(credential){
     if (credential.enabled !== false) {
-      self.clients.push(new twitter(credential));
+      var client = new twitter(credential);
+      client._instance_id = self.clients.length;
+      self.clients.push(client);
     }
   });
   logger.info('Initialized ' + self.clients.length +' twitter clients');
@@ -51,16 +53,21 @@ TwitterHelper.prototype.api = function (method, args) {
   var parameters = Array.prototype.slice.call(args).slice(0, args.length-1);
   var callback = args[args.length-1];
 
+  var instance = this.getInstance();
+  var self = this;
   var wrappedCallback = function (err, data) {
     if (err) {
-      logger.error('Error calling \'' + parameters[0] + '\' api ['+ method.toUpperCase() + ']. ' + err);
-      callback && callback(err);
+      if (err.code == 32 || err[0].code==32) {
+        logger.error('Error calling \'' + parameters[0] + '\' api ['+ method.toUpperCase() + '] on instance ' + instance._instance_id + '. Using another instance. ', err);
+        self.api(method, args);
+      } else {
+        logger.error('Error calling \'' + parameters[0] + '\' api ['+ method.toUpperCase() + '] on instance ' + instance._instance_id + '. ', err);
+        callback && callback(err);
+      }
     } else {
       callback && callback(undefined, data);
     }
   };
-
-  var instance = this.getInstance();
 
   if (method == "post") {
     var method_call = instance.post;

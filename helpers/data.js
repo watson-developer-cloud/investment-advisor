@@ -108,7 +108,7 @@ module.exports = function (twitter) {
       var data = { contentItems : contentItems };
       services.personality_insights.profile(data, function (error, profile) {
         if (error) {
-          logger.error('Error obtaning profile for user:', user.name || user.id);
+          logger.error('Error obtaning profile for user:', user.name || user.id, '| Error:', error);
         } else {
           Profile.create({ userid : user.id, value: JSON.stringify(profile) });
           logger.info('Saved profile for user', user.name);
@@ -124,11 +124,15 @@ module.exports = function (twitter) {
     twitter.getUser(user.id, function (err, twitterUser) {
       user.category = category;
       user = extend(twitterUser, user);
-      User.create(user);
       twitter.getTweets(user.id, function (err, tweets) {
+        if (err) {
+          logger.debug('Error when getting tweets for user ' + user.name + '.');
+          throw err;
+        }
         tweets.forEach(function (tweet) {
           ContentItem.create(tweet);
         });
+        User.create(user);
         initProfile(user);
         logger.info('Saved user', user.name, '(' + user.id + ')', 'with', user.contentitems + ' tweets.');
       });

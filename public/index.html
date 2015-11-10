@@ -33,7 +33,7 @@
             <div id="appHeader">
               <h1 style="font-size: 3.6em; margin-bottom: 14px" class="service-title"> <span>Investment Advisor</span></h1>
             </div>
-            <div id="headerInfo">
+            <div id="headerInfo" style="display:none">
               <p>The Investment Advisor Demo combines IBM Watson Personality Insights and IBM Watson Tradeoff Analytics services to recommend suitable funds and agents for clients. Fund recommendation is based on a client's risk propensity. Agent recommendation focuses on building long-term relationships with clients.</p>
             </div>
           </div>
@@ -42,6 +42,36 @@
     </div>
     <div class="container">
       <div id="topnav" style="display:none" class="nav"><a class="back">&lt; Back to home</a></div>
+      <div id="landing" style="display:none">
+        <div class="row">
+          <div style="text-align:justify" class="col-xs-12">
+            <p><a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/personality-insights/applied.shtml#otherRisk">Studies</a><span> show that personality influences an individual's risk taking behavior </span>in financial decisions. This demo uses <a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/personality-insights.html">IBM Watson's Personality Insights</a><span> to determine an individual's personality from tweets and any other </span>available content the individual has authored. The inferred personality 
+              is then used to determine the individual's risk propensity and assist 
+              the advisor in the selection of fund recommendations. For example, in 
+              this demo if we select client 'Cari', her personality shows that she 
+              is high on openness change and low on cautiousness and conservation.  
+              Her risk propensity is high and the advisor is presented high risk 
+              funds for consideration. On the other side, if we choose client 
+              'Lillian', she is high on cautiousness and conservation and low on 
+              openness to change so low risk funds are recommended.  
+            </p>
+            <p> <span>Once a risk assessment based on personality is available,  </span><a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/tradeoff-analytics.html">IBM Watson's Tradeoff Analytics</a><span> can be used to balance multiple financial objectives along with </span>personality match to help the advisor determine the best funds for the
+              individual. 
+            </p>
+            <p>Further, the demo shows how knowledge about an individual's personality</p>can be used to match him or her to an agent who is most likely to close 
+            the business and drive value out of the relationship. These insights can 
+            also be leveraged to provide recommendations to the advisor in developing 
+            the optimal engagement strategy. 
+            <p>This is a working demo that showcases how one might leverage the Personality</p>Insights and Tradeoff Analytics cognitive services. This is not meant to be 
+            a complete product or people recommendation engine. In a real scenario, 
+            personality attributes will be used along with other relevant features to 
+            learn an appropriate prediction model. 
+          </div>
+          <div style="text-align:center" class="col-xs-12">
+            <div id="launchApp" style="margin-top: 60px" class="btn">Launch Application</div>
+          </div>
+        </div>
+      </div>
       <div id="galleries" style="display:none">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-xs-12">
