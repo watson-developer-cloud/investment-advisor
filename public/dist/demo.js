@@ -78,98 +78,6 @@ function exportModule(moduleName, moduleFunction) {
  * the License.
  */
 
-/**
- * Builds JSON CSS style respresentations into a
- * HTML appendable <style> block.
- *
- * Definitions:
- *   - An StyleDicionary is a JavaScript dictionary
- *     where each key is an identifier and each value
- *    is an object representing a set of properties.
- *    E.g. building this StyleDicionary:
- *
- *    ".userInfo p" : {
- *      "height" : "80px",
- *      "width"  : "80px"
- *    }
- *
- *  will output:
- *
- *  <style>
- *    .userInfo p {
- *      height: 80px;
- *      width: 80px;
- *    }
- *  </style>
- */
-exportModule("JSONCSS", function () {
-
-  'use strict';
-
-  var self = {};
-
-  /**
-   * Modifies a CSS identifier or a set of identifiers (string)
-   * preppending the containerId in order to limit the scope where
-   * styles will be applied.
-   * @param selectors An string with the CSS selectors.
-   * @param containerId The container id.
-   * @return The selectors preppended with the containerId.
-   */
-  function buildIdentifier(selectors, containerId) {
-    return selectors.split(",").map(function (i) {
-      return containerId + " " + i;
-    }).join(",");
-  }
-
-  /**
-   * Builds JSON CSS style respresentations into a
-   * HTML appendable <style> block.
-   * @param styleDicionary An styleDicionary.
-   * @param containerId The id or class used to isolate the styles.
-   */
-  function buildStyle(styleDictionary, containerId) {
-    containerId = containerId || "body";
-
-    var
-      output = "",
-      style = styleDictionary;
-
-    Object.keys(style).forEach(function (elementIdentifier) {
-      output += buildIdentifier(elementIdentifier, containerId) + " {";
-      var attributeValues = style[elementIdentifier];
-      Object.keys(attributeValues).forEach(function (attribute) {
-        output += attribute + " : " + attributeValues[attribute] + ";";
-      });
-      output += "}";
-    });
-
-    return "<style>" + output + "</style>";
-  }
-
-  /* API */
-
-  self.buildStyle = buildStyle;
-
-  return self;
-});
-
-/**
- * Copyright 2015 IBM Corp. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
 
 exportModule("MatchComparator", function () {
   'use strict';
@@ -1802,6 +1710,98 @@ exportModule("UserGallery", function () {
   klass.themes = themes;
 
   return klass;
+});
+
+/**
+ * Copyright 2015 IBM Corp. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+/**
+ * Builds JSON CSS style respresentations into a
+ * HTML appendable <style> block.
+ *
+ * Definitions:
+ *   - An StyleDicionary is a JavaScript dictionary
+ *     where each key is an identifier and each value
+ *    is an object representing a set of properties.
+ *    E.g. building this StyleDicionary:
+ *
+ *    ".userInfo p" : {
+ *      "height" : "80px",
+ *      "width"  : "80px"
+ *    }
+ *
+ *  will output:
+ *
+ *  <style>
+ *    .userInfo p {
+ *      height: 80px;
+ *      width: 80px;
+ *    }
+ *  </style>
+ */
+exportModule("JSONCSS", function () {
+
+  'use strict';
+
+  var self = {};
+
+  /**
+   * Modifies a CSS identifier or a set of identifiers (string)
+   * preppending the containerId in order to limit the scope where
+   * styles will be applied.
+   * @param selectors An string with the CSS selectors.
+   * @param containerId The container id.
+   * @return The selectors preppended with the containerId.
+   */
+  function buildIdentifier(selectors, containerId) {
+    return selectors.split(",").map(function (i) {
+      return containerId + " " + i;
+    }).join(",");
+  }
+
+  /**
+   * Builds JSON CSS style respresentations into a
+   * HTML appendable <style> block.
+   * @param styleDicionary An styleDicionary.
+   * @param containerId The id or class used to isolate the styles.
+   */
+  function buildStyle(styleDictionary, containerId) {
+    containerId = containerId || "body";
+
+    var
+      output = "",
+      style = styleDictionary;
+
+    Object.keys(style).forEach(function (elementIdentifier) {
+      output += buildIdentifier(elementIdentifier, containerId) + " {";
+      var attributeValues = style[elementIdentifier];
+      Object.keys(attributeValues).forEach(function (attribute) {
+        output += attribute + " : " + attributeValues[attribute] + ";";
+      });
+      output += "}";
+    });
+
+    return "<style>" + output + "</style>";
+  }
+
+  /* API */
+
+  self.buildStyle = buildStyle;
+
+  return self;
 });
 
 /**
@@ -7603,8 +7603,6 @@ $(document).ready(function () {
   }
 
   initializeDemo();
-
-  window.demo = demo;
 });
 
 /**
