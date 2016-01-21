@@ -32,7 +32,7 @@
   ```
   The name you use will determinate your application url initially, e.g. `<application-name>.mybluemix.net`.
 
-1. Create the `users.json` file inside `data` folder. See [Setting up users and funds data](#setting-up-users-and-funds-data) section for more information.
+1. You may optionally modify the `users.json` file inside `data` folder. See [Setting up users and funds data](#setting-up-users-and-funds-data) section for more information.
 
 1. Copy the credentials for MongoDB service in Bluemix to `credentials.js`, under `database` key.
 
