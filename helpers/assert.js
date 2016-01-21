@@ -16,29 +16,9 @@
 
 'use strict';
 
-var extend = require('util')._extend,
-    mongoose = require('mongoose');
-
-module.exports = (function() {
-  var self = {};
-
-  function unmongoose(object) {
-    var newObject = extend({}, object);
-    delete newObject._id;
-    delete newObject.__v;
-    return newObject;
+module.exports = {
+  assertDefined: function (value, message) {
+    if (typeof value === 'undefined')
+      throw new Error(message);
   }
-
-  function connect(connectionString) {
-    mongoose.connect(connectionString, function (err) {
-        if (err) {
-          throw new Error('Couldn\'t connect to Mongo Database. Please check your credentials. Root cause: ' + err.message);
-        }
-    });
-  }
-
-  self.unmongoose = unmongoose;
-  self.connect = connect;
-
-  return self;
-})();
+}

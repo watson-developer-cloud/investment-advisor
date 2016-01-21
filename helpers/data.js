@@ -24,7 +24,8 @@ var fs          = require('fs'),
     Profile     = mongoose.model('Profile'),
     services    = require('../config/services'),
     logger      = require('../config/logger'),
-    unmongoose  = require('./mongoose-utils').unmongoose;
+    unmongoose  = require('./mongoose-utils').unmongoose,
+    assertDefined = require('./assert').assertDefined;
 
 // Possible sources
 var SOURCES = {
@@ -98,13 +99,7 @@ module.exports = function (twitter) {
    */
   function initProfile(user) {
 
-    // TODO FIX QUERY
-    ContentItem.find({}).lean(true).exec(function (err, contentItems) {
-
-      if (err) throw err;
-
-      var contentItems = contentItems.filter(function (e) { return e.userid == user.id; }).map(unmongoose);
-
+    function initProfileWithContentItems(contentItems) {
       var data = { contentItems : contentItems };
       services.personality_insights.profile(data, function (error, profile) {
         if (error) {
@@ -114,7 +109,22 @@ module.exports = function (twitter) {
           logger.info('Saved profile for user', user.name);
         }
       });
-    });
+    }
+
+    if (user.source == 'generic') {
+      initProfileWithContentItems(loadUserData(user.id).contentItems);
+    } else if (user.source == 'twitter') {
+      // TODO FIX QUERY
+      ContentItem.find({}).lean(true).exec(function (err, contentItems) {
+        if (err) throw err;
+
+        var contentItems = contentItems.filter(function (e) { return e.userid == user.id; }).map(unmongoose);
+        initProfileWithContentItems(contentItems);
+      });
+    } else {
+      throw Error('Not valid source for user: ' + user.source);
+    }
+
   }
 
   /**
@@ -177,6 +187,7 @@ module.exports = function (twitter) {
    */
   function processUsers(users) {
     Object.keys(users).forEach(function (category) {
+      assertDefined(users[category], 'Couldn\'t load users for category "'+category+'"');
       users[category].forEach(initUser.bind(this, category))
     });
   }

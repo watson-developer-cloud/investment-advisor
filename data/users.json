@@ -1,0 +1,27 @@
+{
+  "clients" : [
+    {
+      "id"     : "Oprah",
+      "job"    : "Client 107",
+      "source" : "generic",
+      "name"   : "Leo Rakes",
+      "image"  : "portraits/11M.jpg"
+    },
+    {
+      "job"    : "Client 108",
+      "id"     : "KingJames",
+      "source" : "generic",
+      "name"   : "Frieda Freya Matthews",
+      "image"  : "portraits/19F.jpg"
+    }
+  ],
+  "representatives": [
+    {
+      "job"    : "Representative",
+      "id"     : "ladygaga",
+      "source" : "generic",
+      "name"   : "Jesica Dory Abram",
+      "image"  : "portraits/20F.jpg"
+    }
+  ]
+}
