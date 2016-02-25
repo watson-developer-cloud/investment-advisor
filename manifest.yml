@@ -1,9 +1,9 @@
 ---
 declared-services:
-  personality-insights-service-standard:
+  personality-insights-service:
     label: personality_insights
-    plan: standard
-  tradeoff-analytics-service-standard:
+    plan: tiered
+  tradeoff-analytics-service:
     label: tradeoff_analytics
     plan: standard
 applications:
@@ -12,5 +12,5 @@ applications:
   path: .
   memory: 1G
   services:
-  - personality-insights-service-standard
-  - tradeoff-analytics-service-standard
+  - personality-insights-service
+  - tradeoff-analytics-service
