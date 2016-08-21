@@ -94,7 +94,7 @@ See the full [Getting Started][getting_started] documentation for more details, 
 4. Go to the project folder in a terminal and run:
     `npm install`
 5. Start the application
-6.  `node app.js`
+6.  `npm start`
 7. Go to `http://localhost:3000`
 
 ## Setting up users and funds data
@@ -106,7 +106,8 @@ See the full [Getting Started][getting_started] documentation for more details, 
     - `generic`: The application expects to find user's content items in
       `data/content_items` folder. This files are according to Personality Insight's
       input definition, for example:
-      ```
+
+      ```json
         {
           "contentItems": [
             {
