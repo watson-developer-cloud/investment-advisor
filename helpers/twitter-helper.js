@@ -17,7 +17,6 @@
 'use strict';
 
 var twitter = require('twitter'),
-    logger  = require('../config/logger'),
     util    = require('util');
 
 var MAX_COUNT = 200;
@@ -38,14 +37,14 @@ function TwitterHelper(credentials) {
       self.clients.push(client);
     }
   });
-  logger.info('Initialized ' + self.clients.length +' twitter clients');
+  console.log('Initialized ' + self.clients.length +' twitter clients');
 }
 
 TwitterHelper.prototype.getInstance = function () {
   var instance = this.count % this.clients.length;
   this.count ++;
 
-  logger.debug('Using Twitter Client instance Nº',instance);
+  console.log('Using Twitter Client instance Nº',instance);
   return this.clients[instance];
 };
 
@@ -58,10 +57,10 @@ TwitterHelper.prototype.api = function (method, args) {
   var wrappedCallback = function (err, data) {
     if (err) {
       if (err.code == 32 || err[0].code==32) {
-        logger.error('Error calling \'' + parameters[0] + '\' api ['+ method.toUpperCase() + '] on instance ' + instance._instance_id + '. Using another instance. ', err);
+        console.log('Error calling \'' + parameters[0] + '\' api ['+ method.toUpperCase() + '] on instance ' + instance._instance_id + '. Using another instance. ', err);
         self.api(method, args);
       } else {
-        logger.error('Error calling \'' + parameters[0] + '\' api ['+ method.toUpperCase() + '] on instance ' + instance._instance_id + '. ', err);
+        console.log('Error calling \'' + parameters[0] + '\' api ['+ method.toUpperCase() + '] on instance ' + instance._instance_id + '. ', err);
         callback && callback(err);
       }
     } else {
@@ -133,7 +132,7 @@ var toAppUser = function(user) {
  * Only returns english and original tweets (no retweets)
  */
 TwitterHelper.prototype.getTweets = function(user_id, callback) {
-  logger.info('getTweets for:', user_id);
+  console.log('getTweets for:', user_id);
 
   var self = this,
     tweets = [],
@@ -152,7 +151,7 @@ TwitterHelper.prototype.getTweets = function(user_id, callback) {
     .map(toContentItem);
 
     tweets = tweets.concat(items);
-    logger.debug('Obtained', tweets.length, 'tweets from user', user_id);
+    console.log('Obtained', tweets.length, 'tweets from user', user_id);
     if (_tweets.length > 1) {
       params.max_id = _tweets[_tweets.length-1].id - 1;
       self.get("statuses/user_timeline", params, processTweets);

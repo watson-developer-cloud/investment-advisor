@@ -19,23 +19,23 @@ module.exports = {
 
   // MongoDB
   database: {
-    url : "mongodb://<username>:<password>@<host>/<database>"
+    url : process.env.MONGODB || "mongodb://USERNAME:PASSWORD@HOST:PORT/DB_NAME"
   },
 
   tradeoff_analytics : {
-    username : '<username>',
-    password : '<password>',
+    username : process.env.TRADEOFF_ANALYTICS_USERNAME || '<username>',
+    password : process.env.TRADEOFF_ANALYTICS_PASSWORD || '<password>',
     version  : 'v1'
   },
 
   personality_insights : {
-    username : '<username>',
-    password : '<password>',
+    username : process.env.PERSONALITY_INSIGHTS_USERNAME || '<username>',
+    password : process.env.PERSONALITY_INSIGHTS_PASSWORD || '<password>',
     version  : 'v2'
   },
 
   // Twitter app credentials: https://apps.twitter.com/app
-  twitter: [
+  twitter: process.env.TWITTER ? JSON.parse(process.env.TWITTER) : [
     {
       consumer_key :        '<consumer_key>',
       consumer_secret  :    '<consumer_secret>',

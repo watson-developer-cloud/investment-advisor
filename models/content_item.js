@@ -22,13 +22,13 @@ var mongoose = require('mongoose'),
 var ContentItemSchema = mongoose.Schema({
   id          : String,
   userid      : String,
-  sourceid    : { type: String,  default: ""    },
+  sourceid    : { type: String,  default: ''    },
   created     : Number,
   updated     : Number,
   contenttype : String,
   language    : String,
   content     : String,
-  parentid    : { type: String,  default: ""    },
+  parentid    : { type: String,  default: ''    },
   reply       : { type: Boolean, default: false },
   forward     : { type: Boolean, default: false }
 });

@@ -18,8 +18,7 @@
 
 var credentials   = require('../credentials'),
     extend        = require('util')._extend,
-    watson        = require('watson-developer-cloud'),
-    bluemix       = require('./bluemix');
+    watson        = require('watson-developer-cloud');
 
 /**
  * Initializes services.
@@ -27,7 +26,7 @@ var credentials   = require('../credentials'),
 module.exports = (function () {
 
   function instanceService(serviceName) {
-    var service = watson[serviceName](extend(credentials[serviceName], bluemix.getServiceCredentials(serviceName)));
+    var service = watson[serviceName](credentials[serviceName]);
     var wrapper = {};
     wrapper[serviceName] = service;
     return wrapper;
@@ -36,8 +35,8 @@ module.exports = (function () {
   var services = {};
 
   //Create the service wrapper
-  services = extend(services, instanceService("personality_insights"));
-  services = extend(services, instanceService("tradeoff_analytics"));
+  services = extend(services, instanceService('personality_insights'));
+  services = extend(services, instanceService('tradeoff_analytics'));
 
   return services;
 

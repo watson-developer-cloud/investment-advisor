@@ -8,7 +8,7 @@ declared-services:
     plan: standard
 applications:
 - name: investment-advisor
-  command: node app.js
+  command: npm start
   path: .
   memory: 1G
   services:

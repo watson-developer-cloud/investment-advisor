@@ -16,24 +16,23 @@
 
 'use strict';
 
-var db          = require("mongoose"),
-    extend      = require('util')._extend,
-    User        = db.model('User'),
-    Profile     = db.model('Profile'),
-    ContentItem = db.model('ContentItem'),
-    logger      = require("../config/logger"),
-    Q           = require("q"),
-    unmongoose  = require('../helpers/mongoose-utils').unmongoose;
+var db = require('mongoose'),
+  extend = require('util')._extend,
+  User = db.model('User'),
+  Profile = db.model('Profile'),
+  ContentItem = db.model('ContentItem'),
+  Q = require('q'),
+  unmongoose = require('../helpers/mongoose-utils').unmongoose;
 
 /**
  * Controllers associated to users.
  */
-module.exports = function(app) {
+module.exports = function (app) {
 
   /**
    * Retrieves the users list from MongoDB.
    */
-  app.post('/users/list', function(req, res) {
+  app.post('/users/list', function (req, res) {
     User.find({})
       .lean()
       .then(function (users) {
@@ -48,23 +47,28 @@ module.exports = function(app) {
             });
 
             users.forEach(function (_, i) {
-              users[i] = extend({profile: profileDict[users[i].id]}, unmongoose(users[i]));
+              users[i] = extend({
+                profile: profileDict[users[i].id]
+              }, unmongoose(users[i]));
               if (profileDict[users[i].id])
-                logger.info(users[i].name, "(", users[i].id, ")", "has profile");
+                console.log(users[i].name, '(', users[i].id, ')', 'has profile');
             });
 
             return res.json(users);
           })
-    });
+      });
   });
 
   /**
    * Retrieves the profile for the given user ID.
    */
-  app.post('/users/profile', function(req, res) {
-    Profile.findOne({userid: req.body.userid}, function (err, profile) {
+  app.post('/users/profile', function (req, res) {
+    Profile.findOne({
+      userid: req.body.userid
+    }, function (err, profile) {
       if (err) {
-        return res.status(err.code || 500).json(error.message || '"Error processing the request"');
+        return res.status(err.code || 500)
+          .json(error.message || 'Error processing the request');
       } else {
         return res.json(JSON.parse(profile.value));
       }
@@ -74,10 +78,15 @@ module.exports = function(app) {
   /**
    * Retrieves the content items for an User ID, with limit.
    */
-  app.post('/users/contentItems', function(req, res) {
-    ContentItem.find({userid: req.body.userid}).limit(req.body.limit || 10).sort({created:-1}).exec(function (err, contentItems) {
+  app.post('/users/contentItems', function (req, res) {
+    ContentItem.find({
+      userid: req.body.userid
+    }).limit(req.body.limit || 10).sort({
+      created: -1
+    }).exec(function (err, contentItems) {
       if (err) {
-        return res.status(err.code || 500).json(error.message || '"Error processing the request"');
+        return res.status(err.code || 500)
+          .json(error.message || 'Error processing the request');
       } else {
         return res.json(contentItems);
       }

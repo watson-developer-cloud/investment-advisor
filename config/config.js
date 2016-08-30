@@ -16,8 +16,7 @@
 
 'use strict';
 
-var express      = require("express"),
-    errorhandler = require('errorhandler'),
+var express      = require('express'),
     bodyParser   = require('body-parser');
 
 /**
@@ -25,8 +24,10 @@ var express      = require("express"),
  */
 module.exports = function(app) {
   // Configure Express
+  app.use(require('morgan')('dev'));
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
+  //app.use(require('helmet'));
 
   app.use(express.static(__dirname + '/../public'));
   app.use('/bower_components',  express.static(__dirname + '/../bower_components'));
@@ -34,11 +35,4 @@ module.exports = function(app) {
   app.use('/portraits',  express.static(__dirname + '/../data/portraits'));
   app.use('/recommendations',  express.static(__dirname + '/../data/recommendations'));
 
-  app.set('view engine', 'jade');
-  app.set('views', __dirname + '/../views');
-
-  //Add error handling in dev
-  if (!process.env.VCAP_SERVICES) {
-    app.use(errorhandler());
-  }
 }

@@ -23,7 +23,6 @@ var fs          = require('fs'),
     ContentItem = mongoose.model('ContentItem'),
     Profile     = mongoose.model('Profile'),
     services    = require('../config/services'),
-    logger      = require('../config/logger'),
     unmongoose  = require('./mongoose-utils').unmongoose,
     assertDefined = require('./assert').assertDefined;
 
@@ -66,7 +65,7 @@ module.exports = function (twitter) {
     dbUser = extend(dbUser, userConfig);
     dbUser.save(function (err) {
       if (err) {
-        logger.error('Could not update user', dbUser.name, '(' + dbUser.id +')');
+        console.log('Could not update user', dbUser.name, '(' + dbUser.id +')');
       }
     });
   }
@@ -79,14 +78,14 @@ module.exports = function (twitter) {
     User.find({id : user.id}, function(err, users) {
       if (err) throw err;
       if (users.length == 0) {
-        logger.info('New user', user.id);
+        console.log('New user', user.id);
         callback(user);
       } else {
         updateUser(users[0], user);
         Profile.find({userid: user.id}, function (err, profiles) {
           if (err) throw err;
           if (profiles.length == 0) {
-            logger.info('User', user.name || user.id, 'has no profile yet. Requesting profile...');
+            console.log('User', user.name || user.id, 'has no profile yet. Requesting profile...');
             initProfile(user);
           }
         });
@@ -103,10 +102,10 @@ module.exports = function (twitter) {
       var data = { contentItems : contentItems };
       services.personality_insights.profile(data, function (error, profile) {
         if (error) {
-          logger.error('Error obtaning profile for user:', user.name || user.id, '| Error:', error);
+          console.log('Error obtaning profile for user:', user.name || user.id, '| Error:', error);
         } else {
           Profile.create({ userid : user.id, value: JSON.stringify(profile) });
-          logger.info('Saved profile for user', user.name);
+          console.log('Saved profile for user', user.name);
         }
       });
     }
@@ -136,7 +135,7 @@ module.exports = function (twitter) {
       user = extend(twitterUser, user);
       twitter.getTweets(user.id, function (err, tweets) {
         if (err) {
-          logger.debug('Error when getting tweets for user ' + user.name + '.');
+          console.log('Error when getting tweets for user ' + user.name + '.');
           throw err;
         }
         tweets.forEach(function (tweet) {
@@ -144,7 +143,7 @@ module.exports = function (twitter) {
         });
         User.create(user);
         initProfile(user);
-        logger.info('Saved user', user.name, '(' + user.id + ')', 'with', user.contentitems + ' tweets.');
+        console.log('Saved user', user.name, '(' + user.id + ')', 'with', user.contentitems + ' tweets.');
       });
     });
   }
@@ -162,7 +161,7 @@ module.exports = function (twitter) {
         ContentItem.create(contentItem);
       });
       initProfile(user);
-      logger.info('Saved user', user.name, '(' + user.id + ')', 'with', user.contentitems + ' content items.');
+      console.log('Saved user', user.name, '(' + user.id + ')', 'with', user.contentitems + ' content items.');
     } catch (err) {
       err.message = 'Error when saving user \'' + user.id + '\'\nRoot cause: ' + err.message;
       throw err;
@@ -206,7 +205,7 @@ module.exports = function (twitter) {
       oldUsers.forEach(function (oldUser) {
         if (ids.indexOf(oldUser.id) === -1) {
           oldUser.remove();
-          logger.info('User "', oldUser.name, '" (', oldUser.id, ') was removed.');
+          console.log('User "', oldUser.name, '" (', oldUser.id, ') was removed.');
         }
       })
     })

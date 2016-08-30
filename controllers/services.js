@@ -21,24 +21,26 @@ var services = require('../config/services');
 /**
  * Controllers to proxy services
  */
-module.exports = function(app) {
+module.exports = function (app) {
 
-  app.post('/services/profile', function(req, res) {
+  app.post('/services/profile', function (req, res) {
     var parameters = req.body;
 
-    services.personality_insights.profile(parameters, function(error, profile) {
+    services.personality_insights.profile(parameters, function (error, profile) {
       if (error)
-        return res.status(error.code || 500).json(error.error || '"Error processing the request"');
+        return res.status(error.code || 500)
+          .json(error.error || 'Error processing the request');
       else
         return res.json(profile);
     });
   });
 
-  app.post('/services/dilemmas', function(req, res) {
-    services.tradeoff_analytics.dilemmas(req.body, function(error, dilemmas) {
+  app.post('/services/dilemmas', function (req, res) {
+    services.tradeoff_analytics.dilemmas(req.body, function (error, dilemmas) {
       error && console.log(error);
       if (error)
-        return res.status(error.code || 500).json(error.error || '"Error processing the request"');
+        return res.status(error.code || 500)
+          .json(error.error || 'Error processing the request');
       else
         return res.json(dilemmas);
     });
