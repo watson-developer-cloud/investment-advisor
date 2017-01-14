@@ -1,5 +1,5 @@
 # Investment Advisor
----
+
   The Investment Advisor Demo combines IBM Watson Personality Insights and IBM
   Watson Tradeoff Analytics services to recommend suitable funds and agents for
   clients. Fund recommendation is based on a client's risk propensity. Agent
@@ -11,7 +11,7 @@
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)][deploy2bluemix]
 
 ## Getting Started
----
+
 
 1. Create a Bluemix Account
 
@@ -32,9 +32,11 @@
   ```
   The name you use will determinate your application url initially, e.g. `<application-name>.mybluemix.net`.
 
-1. You may optionally modify the `users.json` file inside `data` folder. See [Setting up users and funds data](#setting-up-users-and-funds-data) section for more information.
+1. Create a FREE Mongodb database using [MongoLab](https://mongolab.com/).
 
-1. Copy the credentials for MongoDB service in Bluemix to `credentials.js`, under `database` key.
+1. Copy the database url for MongoDB to `credentials.js`, under `database` key.
+
+1. You may optionally modify the `users.json` file inside `data` folder. See [Setting up users and funds data](#setting-up-users-and-funds-data) section for more information.
 
 1. Connect to Bluemix in the command line tool.
   ```sh
@@ -60,7 +62,7 @@
 See the full [Getting Started][getting_started] documentation for more details, including code snippets and references.
 
 ## Running locally
----
+
   The application uses [Node.js][nodejs] and [npm][npm] so you will have to download and install them as part of the steps below.
 
 1. Copy the credentials from your `personality-insights-service-standard` and `tradeoff-analytics-service-standard` service in Bluemix to `credentials.js`, you can see the credentials using:
@@ -98,7 +100,7 @@ See the full [Getting Started][getting_started] documentation for more details, 
 7. Go to `http://localhost:3000`
 
 ## Setting up users and funds data
----
+
   The folder `data` contains the users and funds data files.
 
   - `users.json` contains all the application's users. For each user, you can specify
@@ -142,15 +144,15 @@ See the full [Getting Started][getting_started] documentation for more details, 
 
 
 ## License
----
+
   This application code is licensed under Apache 2.0. Full license text is available in [LICENSE](LICENSE).
 
 ## Known bugs
----
+
   No known bugs.
 
 ## Troubleshooting
----
+
 To troubleshoot your Bluemix app the main useful source of information are the logs, to see them, run:
 
   ```sh
@@ -158,16 +160,16 @@ To troubleshoot your Bluemix app the main useful source of information are the l
   ```
 
 ## Contributing
----
+
   See [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Open Source @ IBM
----
+
   Find more open source projects on the [IBM Github Page](http://ibm.github.io/)
 
 [deploy2bluemix]:https://bluemix.net/deploy?repository=https://github.com/watson-developer-cloud/investment-advisor
 [npm]:https://www.npmjs.com/
 [nodejs]:http://nodejs.org/
 [cloud_foundry]: https://github.com/cloudfoundry/cli
-[getting_started]: http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/getting_started/
-[sign_up]: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html?cm_mmc=WatsonDeveloperCloud-_-LandingSiteGetStarted-_-x-_-CreateAnAccountOnBluemixCLI
+[getting_started]: http://www.ibm.com/watson/developercloud/doc/getting_started/
+[sign_up]: https://console.ng.bluemix.net/registration/?target=/catalog/services/personality-insights/
