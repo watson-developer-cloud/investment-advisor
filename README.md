@@ -5,11 +5,6 @@
   clients. Fund recommendation is based on a client's risk propensity. Agent
   recommendation focuses on building long-term relationships with clients.
 
-  Try Investment Advisor! Click the button below to fork into IBM DevOps
-  Services and deploy your own copy of this application on Bluemix.
-
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)][deploy2bluemix]
-
 ## Getting Started
 
 
@@ -167,7 +162,6 @@ To troubleshoot your Bluemix app the main useful source of information are the l
 
   Find more open source projects on the [IBM Github Page](http://ibm.github.io/)
 
-[deploy2bluemix]:https://bluemix.net/deploy?repository=https://github.com/watson-developer-cloud/investment-advisor
 [npm]:https://www.npmjs.com/
 [nodejs]:http://nodejs.org/
 [cloud_foundry]: https://github.com/cloudfoundry/cli
