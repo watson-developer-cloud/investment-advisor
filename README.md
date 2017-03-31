@@ -165,5 +165,5 @@ To troubleshoot your Bluemix app the main useful source of information are the l
 [npm]:https://www.npmjs.com/
 [nodejs]:http://nodejs.org/
 [cloud_foundry]: https://github.com/cloudfoundry/cli
-[getting_started]: http://www.ibm.com/watson/developercloud/doc/getting_started/
+[getting_started]: https://www.ibm.com/watson/developercloud/doc/common/
 [sign_up]: https://console.ng.bluemix.net/registration/?target=/catalog/services/personality-insights/
