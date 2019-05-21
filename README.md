@@ -1,5 +1,8 @@
 # Investment Advisor
 
+## DEPRECATED: this repo is no longer actively maintained. It can still be used as reference, but may contain outdated or unpatched code.
+
+
   The Investment Advisor Demo combines IBM Watson Personality Insights and IBM
   Watson Tradeoff Analytics services to recommend suitable funds and agents for
   clients. Fund recommendation is based on a client's risk propensity. Agent
